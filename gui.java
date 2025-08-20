@@ -339,10 +339,19 @@ public class FormDataAnggota extends javax.swing.JFrame {
        alamat = txt_alamat.getText();
        
        txt_nis2.setText(nis);
+       txt_nis2.setEditable(false);
+       
        txt_nama2.setText(nama);
+       txt_nama2.setEditable(false);
+       
        txt_kelas2.setText(kelas);
+       txt_kelas2.setEditable(false);
+       
        txt_kompetensi2.setText(kompetensi);
+       txt_kompetensi2.setEditable(false);
+       
        txt_alamat2.setText(alamat);
+       txt_alamat2.setEditable(false);
        
        
        String jk;
